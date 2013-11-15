@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h3 {
+    color: #000000;
+    font-size: 1.2em;
+}
+
+
+table td {
+    border: 1px solid #D5D5D5;
+    /*font-size: 14px;*/
+    padding: 5px;
+}
+
+table th {
+    background-color: #EEEEEE;
+    border-right: 1px solid #D5D5D5;
+    /*font-size: 13.5px;*/
+    font-weight: bold;
+    line-height: 0%;
+    padding: 10px 5px;
+    text-align: left;
+}
+table th.status {
+    width: 15%
+}
+table th.description {
+    width: 72%
+}
+table th.date {
+    width: 15%
+}
+table th.cost {
+    width: 15%
+}
+
+table th.title {
+    width: 30%
+}
+table th.description2 {
+    width: 57%
+}
+table th.length {
+    width: 15%
+}
+
+.ui-resizable {
+    position: relative;
+}
+.ui-resizable-handle {
+    display: block;
+    font-size: 0.1px;
+    position: absolute;
+    z-index: 99999;
+}
+.ui-resizable-s {
+    background: url("../images/grippie.png") no-repeat scroll center 2px #EEEEEE;
+    border-top: 1px solid #CCCCCC;
+    bottom: -5px;
+    cursor: s-resize;
+    height: 14px;
+    left: 0;
+    width: 100%;
+}
+
+body {
+    color: #222222;
+    font: 0.75em arial,helvetica,clean,sans-serif;
+}
+
+.feeditemaux {
+    border: 1px solid #EDEDED;
+    border-radius: 3px 3px 3px 3px;
+    margin: 5px 0;
+    padding: 0px;
+}
+
+.feedcontainer {
+    line-height: 15px;
+}
+
+.feedcontainer .feeditem {
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.zen-btn-container {
+    border: 1px none;
+    margin: 1px 1px 1px 1px;
+    vertical-align: middle;
+}
+
+.zen-btn {
+    border: 1px solid #c3c3c3;
+    border-color: #c3c3c3 #aaa #909090;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #f0f0f0;
+    background-image: -moz-linear-gradient(#fff,#f0f0f0);
+    background-image: -webkit-linear-gradient(#fff,#f0f0f0);
+    background-image: -ms-linear-gradient(#fff,#f0f0f0);
+    font-size: .917em;
+    font-weight: bold;
+}
+
+
+.zen-btn:hover {
+    background: #e4f5ff;
+    background: -moz-linear-gradient(#fff,#e4f5ff 60%);
+    background: -webkit-linear-gradient(#fff,#e4f5ff 60%);
+    background: -ms-linear-gradient(#fff,#e4f5ff 60%);
+}
+
